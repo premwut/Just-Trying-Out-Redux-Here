@@ -21,7 +21,11 @@ class Colors extends React.Component {
         const { selectedColor } = this.props;
         if (!selectedColor)
             return <h1>{this.props.temp}</h1>
-        return <div className="show-color" style={{ backgroundColor: selectedColor}}></div>;
+        return (
+            <div className="show-color" style={{ backgroundColor: selectedColor}}>
+                <div className="color"> {selectedColor} </div>    
+            </div>
+        )
     }
 
     render () {

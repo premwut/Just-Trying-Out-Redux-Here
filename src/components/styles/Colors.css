@@ -18,3 +18,8 @@
     border-radius: 10px;
     
 }
+
+.show-color .color {
+    text-align: center;
+    font-size: 2rem;
+}
