@@ -1,4 +1,4 @@
 # Hi
 
-Just trying out Redux here. Nothing interesting really.
+Just trying out Redux here. Nothing special.
 * Lodrem ipsum.
